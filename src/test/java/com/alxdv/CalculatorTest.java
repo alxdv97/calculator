@@ -1,9 +1,7 @@
 package com.alxdv;
 
-import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertEquals;
 
-import com.generated.SimpleCalculator;
 import com.generated.SimpleCalculator.ExpressionResults;
 import com.generated.SimpleCalculator.ExpressionResults.ExpressionResult;
 import org.junit.After;
