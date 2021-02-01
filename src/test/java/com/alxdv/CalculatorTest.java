@@ -47,8 +47,8 @@ public class CalculatorTest
         final ExpressionResults expressionResults = MarshallingUtils.unmarshallExpressionResult(target);
         final List<ExpressionResult> expressionResult = expressionResults.getExpressionResult();
 
-        assertEquals(-2443.75, expressionResult.get(0).getResult(), 10e9);
-        assertEquals(-59747.58686350021, expressionResult.get(1).getResult(), 10e9);
+        assertEquals(-2443.75, expressionResult.get(0).getResult(), 10e-9);
+        assertEquals(59747.58686350021, expressionResult.get(1).getResult(), 10e-9);
     }
 
     @Test
